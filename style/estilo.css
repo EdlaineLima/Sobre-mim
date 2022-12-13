@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(#FEFEFE, #888888);
+    font-family: 'Rubik Vinyl', cursive;
+    
+}
+h1 {
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 50px 50px 0;
+}
+
+h1:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 190%;
+    font-family:'Montserrat', sans-serif;;
+
+}
+
+a:hover {
+    text-transform: uppercase;
+    background: #181414;
+}
+
+.img01, .img02 {
+    width: 275px;
+    margin: 0px 50px 40px 30px;
+    box-shadow: 10px 10px 25px ;
+    border-radius: 5px;
+    float: left;
+}
+
+#introdução > p, .aprendendo {
+    font-size: 25px;
+    padding: 50px 50px 50px 80px;
+    line-height: 1.4em;
+    
+}
+
+.video {
+    float: right;
+    padding: 95px;
+    border-radius: 10px;
+}
+
+.conhecendo > p {
+    font-size: 25px;
+    padding: 100px;
+    box-shadow: 10px 10px 25px ;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #888888;
+    padding: 40px 0;
+    width: auto;
+}
+
+.copyright {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 20px;
+    width: auto;
+}
+
+/*Deixando o site responsivo*/
+@media screen and (max-width: 485px) {
+    
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    
+    .conhecendo > p {
+        font-size: 18px;
+        padding: 0px 50px 8px 4px;
+    }
+
+    .img01, .img02 {
+        width: 80%;
+        margin: 5px 40px 20px;
+        font-size: 50px;
+    }
+
+    .video {
+        width: 80%;
+        margin: 23px -48px -45px;
+    }
+    
+    ul {
+        font-size:18px;
+        padding: 0px 50px 8px 4px;
+        margin: 23px -48px -45px;
+    }
+}
