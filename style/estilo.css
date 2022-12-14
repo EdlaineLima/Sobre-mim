@@ -67,7 +67,9 @@ footer {
 
 /*Deixando o site responsivo*/
 @media screen and (max-width: 485px) {
-    
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
     h1 {
         text-align: center;
         font-size: 25px;
