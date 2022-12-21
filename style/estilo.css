@@ -8,6 +8,7 @@ h1 {
     text-align: center;
     padding: 20px;
     margin: 0 50px 50px 0;
+    transition: all 1.5s;
 }
 
 h1:hover {
@@ -15,7 +16,6 @@ h1:hover {
     font-size: 220%;
     text-decoration: underline;
     background:#D4D4D4;
-    transition: 2s all;
     opacity: 0.6;
 
 
