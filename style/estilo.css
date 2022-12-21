@@ -24,11 +24,11 @@ h1:hover {
 a {
     text-decoration: none;
     font-weight: bold;
+    transition-duration: all 2s;
 }
 
 a:hover {
     background: #EDEDED;
-    transition-duration: 2s;
     transition-timing-function: linear;
     border-radius: 20%;
  }
