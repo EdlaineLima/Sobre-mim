@@ -34,7 +34,7 @@ a:hover {
  }
 
 a:visited {
-    color: #6E6E6E;
+    color: #812a2a;
 }
 
 .img01, .img02{
@@ -50,6 +50,11 @@ a:visited {
     padding: 50px 50px 50px 80px;
     line-height: 1.4em;
     
+}
+
+span {
+    font-weight: 700;
+    font-style: italic;
 }
 
 .video {
